@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/container"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".MainActivity" tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="65dp"
+        android:text="21"
+        android:id="@+id/textView_1"
+        android:layout_gravity="left|center_vertical"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="datetime"
+        android:ems="10"
+        android:id="@+id/dateText"
+        android:layout_gravity="top|center_horizontal"
+        android:text="@string/Date"
+        android:editable="false"
+        android:enabled="false"
+        android:textIsSelectable="false" />
+
+    <ImageView
+        android:layout_width="228dp"
+        android:layout_height="228dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="right|center_vertical"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="8"
+        android:id="@+id/textView_2"
+        android:layout_gravity="left|center_vertical" />
+
+</FrameLayout>
