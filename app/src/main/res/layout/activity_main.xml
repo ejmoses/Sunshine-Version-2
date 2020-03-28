@@ -6,30 +6,20 @@
     tools:context=".MainActivity"
     tools:ignore="MergeRootFrame">
 
-    <EditText
-        android:id="@+id/dateText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="top|center_horizontal"
-        android:editable="false"
-        android:ems="10"
-        android:enabled="false"
-        android:inputType="datetime"
-        android:text="@string/Date"
-        android:textIsSelectable="false" />
 
-    <ImageView
+<ImageView
         android:id="@+id/imageView"
         android:layout_width="228dp"
         android:layout_height="228dp"
-        android:layout_gravity="right|center_vertical"
-        android:src="@drawable/ic_launcher" />
+        android:layout_gravity="end|center_vertical"
+        android:src="@drawable/ic_launcher"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/textView_2"
         android:layout_width="119dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="left|center_vertical"
+        android:layout_gravity="start|center_vertical"
         android:text="@string/Time"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
@@ -37,8 +27,8 @@
         android:id="@+id/textView_1"
         android:layout_width="99dp"
         android:layout_height="65dp"
-        android:layout_gravity="left|center_vertical"
-        android:contentDescription="Weather Icon"
+        android:layout_gravity="start|center_vertical"
+        android:contentDescription="@string/weather_icon"
         android:text="@string/Temprature"
         android:textStyle="bold|italic" />
 

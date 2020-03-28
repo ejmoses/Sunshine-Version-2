@@ -7,5 +7,7 @@
     <string name="Date">Sunday, 6/12/2016</string>
     <string name="Temprature">21</string>
     <string name="Time">8:45</string>
+    <string name="todo">TODO</string>
+    <string name="weather_icon">Weather Icon</string>
 
 </resources>
